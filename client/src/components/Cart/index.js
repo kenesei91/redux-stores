@@ -18,6 +18,7 @@ const Cart = () => {
   });
 
   const dispatch = useDispatch();
+
   const [getCheckout, { data }] = useLazyQuery(QUERY_CHECKOUT);
 
   useEffect(() => {
